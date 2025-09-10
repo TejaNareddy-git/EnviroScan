@@ -1,0 +1,7 @@
+streamlit
+osmnx
+pandas
+requests
+folium
+scikit-learn
+pyngrok
