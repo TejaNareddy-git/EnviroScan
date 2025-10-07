@@ -5,3 +5,4 @@ folium
 requests
 scikit-learn
 twilio
+streamlit-folium
