@@ -136,7 +136,7 @@ div.stButton > button:first-child:hover {
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv(r'C:\Users\ntkr3\Infosys Project\processed_pollution_data.csv')
+    df = pd.read_csv('processed_pollution_data.csv')
     df['Timestamp'] = pd.to_datetime(df['Timestamp'])
     return df
 
