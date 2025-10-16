@@ -20,15 +20,15 @@ from io import BytesIO
 import datetime
 
 # ---------- Images ----------
-banner = Image.open('enviroscan_banner.png')
+banner = Image.open('enviroscan_banner.png)
 side_image = Image.open('side_img.webp')
 
-banner = Image.open(banner_path)
+banner = Image.open('enviroscan_banner.png')
 buffered = BytesIO()
 banner.save(buffered, format="PNG")
 img_str = base64.b64encode(buffered.getvalue()).decode()
 
-side_image = Image.open(sidebar_img_path)
+side_image = Image.open('side_img.webp')
 side_buffered = BytesIO()
 side_image.save(side_buffered, format="PNG")
 side_img_str = base64.b64encode(side_buffered.getvalue()).decode()
