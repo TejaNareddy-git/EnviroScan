@@ -20,7 +20,7 @@ from io import BytesIO
 import datetime
 
 # ---------- Images ----------
-banner = Image.open('enviroscan_banner.png)
+banner = Image.open('enviroscan_banner.png')
 side_image = Image.open('side_img.webp')
 
 banner = Image.open('enviroscan_banner.png')
