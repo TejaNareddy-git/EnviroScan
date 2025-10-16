@@ -20,8 +20,8 @@ from io import BytesIO
 import datetime
 
 # ---------- Images ----------
-banner_path = r'C:\Users\ntkr3\Infosys Project\enviroscan_banner.png'
-sidebar_img_path = r'C:\Users\ntkr3\Infosys Project\side_img.webp'
+banner = Image.open('enviroscan_banner.png')
+side_image = Image.open('side_img.webp')
 
 banner = Image.open(banner_path)
 buffered = BytesIO()
